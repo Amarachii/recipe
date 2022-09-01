@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+b{
+    font-size: 70px;
+    color: rgb(240, 236, 236);
+    font-family: georgia;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(222, 163, 135);
+    font-family: verdana;
+}
+
+.heading{
+    background-color: rgb(224, 26, 26);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: monospace;
+    color: rgb(240, 236, 236);
+}
+
+.heading2{
+    padding-top: 4%;
+    font-size: 25px;
+    font-family: verdana;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: rgb(219, 23, 23)
+}
+
+h3{
+    font-size: 20px;
+    font-family: verdana;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: rgb(219, 23, 23);
+    padding-left: 3%;
+    margin: 0px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(129, 13, 13);
+    
+}
+
+img{
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    border-right: 4px dotted rgb(222, 135, 135);
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img3{
+    width: 30%;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.img2, .img1{
+    width: 30%;
+    padding: 10px;
+}
+
+.img2{
+    border: none;
+}
+
+ul{
+    padding-top: 0px;
+    margin-top: 10px;
+    color: rgb(129, 13, 13);
+    font-size: 20px;
+}
+
+ol{
+    margin-top: 10px;
+    color: rgb(129, 13, 13);
+    font-size: 20px;
+}
+
+hr{
+    background-color: rgb(168, 6, 6);
+    height: 2px;
+}
+
+footer{
+    color: rgb(129, 13, 13);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
